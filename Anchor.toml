@@ -1,0 +1,16 @@
+[features]
+seeds = true
+skip-lint = false
+
+[programs.localnet]
+evosol_core = "EvoSoL1111111111111111111111111111111111111"
+
+[programs.devnet]
+evosol_core = "EvoSoL1111111111111111111111111111111111111"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "devnet"
+wallet = "~/.config/solana/id.json"
